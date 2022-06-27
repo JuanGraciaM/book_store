@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.cartwidget {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartwidget__cart-container {
+    width: 2rem auto 2rem;
+    background-color: #E0E0E0;
+    padding: 0.4rem 0.4rem 0.3rem 0.3rem;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: row;
+}
+
+.cartwidget__cart-container--img {
+    width: 100%;
+}
+
+.cartwidget__cart-container--p {
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding-left: .5rem;
+}

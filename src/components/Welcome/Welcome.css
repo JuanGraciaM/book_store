@@ -1,0 +1,16 @@
+.welcome-container {
+    margin: 1rem 2rem 1rem;
+}
+
+.welcome-container__title {
+    font-size: 3rem;
+}
+
+.welcome-container__title i {
+    color:  #4a477d;
+}
+
+.welcome-container__description {
+    font-size: 2rem;
+    color: #9E9E9E;
+}

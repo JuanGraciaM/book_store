@@ -1,0 +1,8 @@
+.cuerpo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 300px;
+    background-color: #9E9E9E;
+    padding: 2.5rem 2rem 1rem;
+}

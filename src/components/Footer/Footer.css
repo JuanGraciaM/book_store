@@ -1,0 +1,44 @@
+.footer {
+    padding: 3rem 2rem;
+    background-color: #151414;
+    height: 300px;
+    color: #FAFAFA;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Primera columna */
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+/* Segunda, Tercera y Cuarta columna */
+.footer__content--store h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+}
+.footer__content--store ul {
+    list-style: none;
+}
+
+.footer__content--store li {
+    margin: 0 0 0.2rem;
+}
+
+.footer__content--store li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ba0000;
+}
+
+.footer__content--store a { 
+    text-decoration: none;
+     color:aliceblue; 
+    }
