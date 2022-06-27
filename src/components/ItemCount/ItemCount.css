@@ -1,0 +1,71 @@
+.counterdiv {
+    background-color: #5355d3;
+    border: 5px solid #000;
+    border-radius: 15px;
+    margin: 0 2rem 2rem;
+    color: #F5F5F5;
+}
+
+.counterdiv__quantity {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 9rem;
+}
+
+.counterdiv__stock {
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+.conterdiv__bntscontainer-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.conterdiv__bntscontainer-1 button{
+    cursor: pointer;
+    font-size: 5rem;
+    border: 5px solid black;
+    margin: 0 .5rem 2rem;
+    padding: 0 .5rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px #000;
+    background-color: inherit;
+    color: inherit;
+    display: block;
+    width: 5rem;
+}
+
+.conterdiv__bntscontainer-2 {
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+
+.conterdiv__bntscontainer-2 button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 2px solid #000;
+    margin: 0 .5rem 3rem;
+    padding: 0 0.5rem 0;
+    border-radius: 5px;
+    color: inherit;
+    display: block;
+    background-color: inherit;
+    box-shadow: 5px 5px #000;
+}
+
+.conterdiv__bntscontainer-1 button:active {
+    background-color: #B71C1C;
+    font-size: 4.5rem;
+    width: 4.9rem;
+}
+
+.conterdiv__bntscontainer-2 button:active {
+    background-color: #B71C1C;
+    font-size: 1.9rem;
+}
+
+.pcount {
+    text-align: center;
+}

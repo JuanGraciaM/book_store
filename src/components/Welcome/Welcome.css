@@ -1,5 +1,6 @@
 .welcome-container {
-    margin: 1rem 2rem 1rem;
+    background-color: #f2eaff;
+    padding: 1rem 2rem 1rem;
 }
 
 .welcome-container__title {
