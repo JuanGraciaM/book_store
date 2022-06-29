@@ -44,7 +44,7 @@ function ItemCount({stock, initial, onAdd}) {
 
     const addToCart = () => {
         setNum(initial)
-        onAdd(true,num)
+        onAdd(num)
     }
 
 

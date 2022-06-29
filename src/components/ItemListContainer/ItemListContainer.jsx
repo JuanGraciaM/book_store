@@ -9,8 +9,8 @@ import Swal from 'sweetalert2';
 
 function ItemListContainer () {
 
-  const onAdd = (a,b) => {
-    if(a) {
+  const onAdd = (b) => {
+    if(b > 0) {
       Swal.fire({
         icon: 'success',
         title: `Agregaste ${b} unidades al carrito`,
